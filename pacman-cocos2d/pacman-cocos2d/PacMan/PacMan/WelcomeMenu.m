@@ -22,7 +22,6 @@
 
 -(void) startButtonWasTapped:(id)sender{
     
-    [[SimpleAudioEngine sharedEngine] stopEffect:_intermissionSoundId];
     [[CCDirector sharedDirector]  pushScene:[PacManLevelLayer scene]];
 
 }

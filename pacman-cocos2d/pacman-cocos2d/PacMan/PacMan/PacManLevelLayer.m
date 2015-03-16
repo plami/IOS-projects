@@ -348,7 +348,7 @@
     float tileX, tileY = 0;
     while (true)
     {
-        tileX = (float)(((int)self.tileMap.mapSize.width-1));
+        tileX = (float)(arc4random() % ((int)self.tileMap.mapSize.width-1));
         tileY =(float)( arc4random() % ((int)self.tileMap.mapSize.height-1));
         if ([self isTileNavigable:ccp(tileX, tileY)] &&  ccpDistance([self positionForTileCoord:ccp(tileX, tileY)], _player.position) > kMinimumGhostSpawnDistance)
         {
