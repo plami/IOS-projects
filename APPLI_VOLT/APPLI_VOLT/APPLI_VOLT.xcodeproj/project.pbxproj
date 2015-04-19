@@ -18,6 +18,8 @@
 		E8BB3FA61AE00A980057C844 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = E8BB3FA51AE00A980057C844 /* background.png */; };
 		E8BB3FA81AE00AB00057C844 /* voltButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E8BB3FA71AE00AB00057C844 /* voltButton.png */; };
 		E8BDEFD61AE1325B008097F8 /* YourLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BDEFD51AE1325B008097F8 /* YourLocationViewController.swift */; };
+		E8C6F12D1AE3AD48005DDD54 /* BestItinaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C6F12C1AE3AD48005DDD54 /* BestItinaryViewController.swift */; };
+		E8C6F12F1AE3B18D005DDD54 /* ItinaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C6F12E1AE3B18D005DDD54 /* ItinaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		E8BB3FA51AE00A980057C844 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		E8BB3FA71AE00AB00057C844 /* voltButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voltButton.png; sourceTree = "<group>"; };
 		E8BDEFD51AE1325B008097F8 /* YourLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourLocationViewController.swift; sourceTree = "<group>"; };
+		E8C6F12C1AE3AD48005DDD54 /* BestItinaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestItinaryViewController.swift; sourceTree = "<group>"; };
+		E8C6F12E1AE3B18D005DDD54 /* ItinaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItinaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 				E8BB3F831ADFFFBD0057C844 /* AppDelegate.swift */,
 				E8BB3F851ADFFFBD0057C844 /* ViewController.swift */,
 				E8BDEFD51AE1325B008097F8 /* YourLocationViewController.swift */,
+				E8C6F12C1AE3AD48005DDD54 /* BestItinaryViewController.swift */,
+				E8C6F12E1AE3B18D005DDD54 /* ItinaryViewController.swift */,
 				E8BB3F871ADFFFBD0057C844 /* Main.storyboard */,
 				E8BB3F8A1ADFFFBD0057C844 /* Images.xcassets */,
 				E8BB3F8C1ADFFFBE0057C844 /* LaunchScreen.xib */,
@@ -231,9 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8C6F12F1AE3B18D005DDD54 /* ItinaryViewController.swift in Sources */,
 				E8BB3F861ADFFFBD0057C844 /* ViewController.swift in Sources */,
 				E8BDEFD61AE1325B008097F8 /* YourLocationViewController.swift in Sources */,
 				E8BB3F841ADFFFBD0057C844 /* AppDelegate.swift in Sources */,
+				E8C6F12D1AE3AD48005DDD54 /* BestItinaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
